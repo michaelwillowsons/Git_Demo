@@ -9,4 +9,9 @@ def adder(a,b,c):
     ans = a+b+c 
     return ans
 
+def multi(a,b):
+    ans = a*b
+    return ans
+
 print(adder(3,4,0)==7)
+print(multi(2,3) == 6)
